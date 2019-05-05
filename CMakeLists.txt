@@ -3,4 +3,4 @@ project(version)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(version main.cpp version.hpp)
+add_executable(version main.cpp version.hpp version.cpp)
