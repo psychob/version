@@ -274,7 +274,7 @@ int main(int argc, char **argv)
             if (use_minor && (have_minor || have_patch)) {
                 hfile << minor;
 
-                if (have_patch || have_build) {
+                if (have_patch) {
                     hfile << '.';
                 }
             }
